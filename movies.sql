@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 27, 2012 at 10:23 PM
+-- Generation Time: Feb 29, 2012 at 08:58 PM
 -- Server version: 5.5.8
 -- PHP Version: 5.3.5
 
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `movies` (
   `release_date` date NOT NULL,
   `director` varchar(80) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=15 ;
 
 --
 -- Dumping data for table `movies`
@@ -43,4 +43,5 @@ INSERT INTO `movies` (`id`, `movie_title`, `release_date`, `director`) VALUES
 (3, 'The Good, the Bad and the Ugly', '1967-12-29', 'Sergio Leone'),
 (5, 'High Plains Drifter', '1973-08-22', 'Clint Eastwood'),
 (8, 'Hang ''Em High', '1968-08-03', 'Ted Post'),
-(9, '3:10 to Yuma', '2007-09-07', 'James Mangold');
+(10, 'Silverado', '1985-07-10', 'Lawrence Kasdan'),
+(14, '3:10 to Yuma', '2007-09-07', 'James Mangold');
