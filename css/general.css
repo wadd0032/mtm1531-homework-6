@@ -1,3 +1,97 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	margin: 0;
+	padding: 0;
+	
+	background: url("../images/denim-bkgd.jpg") repeat top left;
+
+	font: normal 100%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serifsans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 3em 3em;
+	width: 45%;
+	
+	background-color: rgba(255,255,255,.8);
+	
+	-webkit-box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, .4);
+	box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, .4);
+}
+
+h1 {
+	margin: 0;
+	padding: .5em;
+	
+	color: #036;
+	font: normal 5em/1 "Smokum", Times, serif;
+	text-align: center;
+}
+
+ul {
+	margin: 0 0 2em;
+	padding: 0;
+	
+	list-style-type: none;
+}
+
+ul li {
+	margin: .5em 0;
+	padding: 0;
+	position: relative;
+}
+
+a,
+a:link,
+a:visited {
+	margin: 0 10px 0 10px;
+	padding: 5px;
+	
+	color: #000;
+	
+	text-algin: left;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	background-color: rgba(153,204,255,.6);
+	
+	border: 1px solid #036;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+}
+
+
+
+.button a,
+.button a:link,
+.button a:visited {
+	margin: 20px 15px 0;
+	padding: 5px;
+	
+	background-color: rgba(153,204,255,.6);
+	
+	color: #000;
+	
+	border: 1px solid #036;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+	
+	font: bold 100%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serifsans-serif;
+	
+	text-decoration: none;
+}
+
+.button a:hover,
+.button a:focus,
+.button a:active {
+	background-color: rgba(0,51,102,.3);
+}
+
