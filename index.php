@@ -14,10 +14,12 @@ $results = $db->query('
 <head>
 	<meta charset="utf-8">
 	<title>Favourite Westerns</title>
+	<link href="http://fonts.googleapis.com/css?family=Smokum|PT+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="css/general.css" rel="stylesheet">
+
 </head>
 <body>
-	
-	<a href="add.php">Add a Movie!</a>
+	<h1>Favourite Westerns</h1>
 	
 	<ul>
 
@@ -30,6 +32,10 @@ $results = $db->query('
 		</li>
 	<?php endforeach; ?>
 	</ul>
+	
+	<div class="button">
+		<a href="add.php">Add a Movie!</a>
+	</div>
 	
 </body>
 </html>

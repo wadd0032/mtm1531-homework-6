@@ -34,6 +34,9 @@ if (empty($results)) {
 <head>
 	<meta charset="utf-8">
 	<title><?php echo $results['movie_title']; ?> &middot; Favourite Westerns</title>
+	<link href="http://fonts.googleapis.com/css?family=Smokum|PT+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="css/general.css" rel="stylesheet">
+
 </head>
 <body>
 	

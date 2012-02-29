@@ -64,8 +64,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
 	<meta charset="utf-8">
 	<title><?php echo $movie_title; ?> &middot; Edit Favourite Westerns</title>
+	<link href="http://fonts.googleapis.com/css?family=Smokum|PT+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="css/general.css" rel="stylesheet">
+
 </head>
 <body>
+	<h1>Editing &#8220;Favourite&nbsp;Westerns&#8221;</h1>
 	
 	<form method="post" action="edit.php?id=<?php echo $id; ?>">
 		<div>

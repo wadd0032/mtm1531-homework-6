@@ -42,9 +42,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Add a Movie</title>
+	<title>Add a Movie to "Favourite Westerns"</title>
+	<link href="http://fonts.googleapis.com/css?family=Smokum|PT+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="css/general.css" rel="stylesheet">
+
 </head>
 <body>
+	<h1>&#8220;Favourite Westerns&#8221; addendum</h1>
 	
 	<form method="post" action="add.php">
 		<div>
